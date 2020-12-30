@@ -2,7 +2,7 @@
 
 namespace App\Review;
 
-use App\IProduct;
+use App\CameraReview\Product\IProduct;
 
 interface IReview {
 

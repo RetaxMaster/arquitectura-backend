@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Product;
+namespace App\CameraReview\Product\Camera;
 
-use App\IProduct;
+use App\CameraReview\Product\IProduct;
 
 interface ICamera extends IProduct {
 
