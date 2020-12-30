@@ -16,7 +16,7 @@ interface IProduct {
     public function getFeatures() : array;
     public function setFeature(Feature $feature) : void;
 
-    public function getContent() : string;
+    public function getContent() : array;
 
 }
 

@@ -42,8 +42,8 @@ class Product implements IProduct {
         array_push($this->features, $feature);
     }
 
-    public function getContent() : string {
-        return "";
+    public function getContent() : array {
+        return ["Something to assert the test"];
     }
 
 }

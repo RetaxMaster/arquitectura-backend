@@ -1,22 +1,21 @@
 <?php
 
-namespace App\Review;
+namespace App\CameraReview\Review;
 
-use App\CameraReview\Product\IProduct;
+use App\CameraReview\Product\Product;
 
 interface IReview {
 
     public function getTitle() : string;
-    public function setTitle() : void;
+    public function setTitle(string $title) : void;
 
-    public function getContent() : string;
-    public function setContent() : void;
+    public function getContent() : array;
 
     public function getAuthor() : string;
-    public function setAuthor() : void;
+    public function setAuthor(string $author) : void;
 
-    public function getProduct() : IProduct;
-    public function setProduct() : void;
+    public function getProduct() : Product;
+    public function setProduct(Product $product) : void;
 
 }
 
