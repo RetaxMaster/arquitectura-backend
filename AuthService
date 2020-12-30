@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T22:31:23.028Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.4" etag="qX_66gkx4HsqRvd9RA1H" type="github"><diagram id="FSIu8DPPwExsid-HJCKX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-30T22:39:41.176Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-RhYreFwVr7iIT2m1ZFt" version="14.1.4" type="github">
+  <diagram id="FSIu8DPPwExsid-HJCKX" name="Page-1">
+    <mxGraphModel dx="2382" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="RYEGwvoQkqT2-dDM9_mc-3" target="RYEGwvoQkqT2-dDM9_mc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYEGwvoQkqT2-dDM9_mc-3" target="RYEGwvoQkqT2-dDM9_mc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.pixabay.com/photo/2019/07/16/18/18/frontend-4342425_960_720.png;" vertex="1" parent="1">
+          <mxGeometry x="-755.65" y="260" width="141.3" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-5" value="Diagrama de autenticación&lt;br&gt;para escritura" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;perimeterSpacing=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="80" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYEGwvoQkqT2-dDM9_mc-7" target="RYEGwvoQkqT2-dDM9_mc-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-361" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-vector/20190124/ourlarge/pngtree-cartoon-database-the-internet-rectangle-black-server-png-image_551093.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="255" width="77.63" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.blogs.es/ad7836/api/1366_2000.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="220" width="114.29" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-vector/20190124/ourlarge/pngtree-cartoon-database-the-internet-rectangle-black-server-png-image_551093.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-723.81" y="440" width="77.63" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-12" value="Servidor de autenticación&lt;br&gt;con Laravel Sanctum&lt;br&gt;(Generación del token)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="600" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-14" value="PUT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYEGwvoQkqT2-dDM9_mc-18" target="RYEGwvoQkqT2-dDM9_mc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-vector/20190124/ourlarge/pngtree-cartoon-database-the-internet-rectangle-black-server-png-image_551093.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="255" width="77.63" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://examtimeassets.s3.amazonaws.com/uploads/media/direct/8a8e03170a2097836a30f12b2121ccf8/Key-PNG-Image.png;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="-755.65" y="540" width="65.04" height="28.27" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/200px-Laravel.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="531.64" width="43.27" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-22" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYEGwvoQkqT2-dDM9_mc-24" target="RYEGwvoQkqT2-dDM9_mc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn3.altiria.com/wp-content/uploads//2017/03/node-logo.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="235" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.academiamoviles.com/view/logos_cursos/mongo-DB.png;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RYEGwvoQkqT2-dDM9_mc-28" value="Digital Ocean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-458" y="220" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
